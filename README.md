@@ -59,3 +59,43 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Langkah Instalasi Proyek
+
+Ikuti langkah-langkah berikut agar aplikasi berjalan dengan baik:
+
+### 1. Clone Repository
+
+```bash
+git clone https:https://github.com/Muebing/Timedoor-Backend-Programming-Exam.git
+cd nama-repo
+
+2. Install Dependency PHP
+
+composer install
+
+3. Salin File .env
+
+cp .env.example .env
+
+4. Generate Key
+
+php artisan key:generate
+
+6. Jalankan Migrasi
+
+php artisan migrate
+
+7. Jalankan Seeder 
+
+Jalankan perintah berikut:
+
+php artisan db:seed
+
+8. Jalankan Server
+
+php artisan serve
+
+Akses aplikasi di:
+
+http://127.0.0.1:8000
